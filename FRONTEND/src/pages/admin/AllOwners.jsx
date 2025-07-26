@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getOwners } from "../../api/adminApi";
 import AddOwnerModal from "../../components/AddOwnerModal";
-import "./AllOwners.css";
+import "./allOwners.css";
 
 export default function AllOwners() {
   const [owners, setOwners] = useState([]);
